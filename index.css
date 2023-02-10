@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+
+/* Top section: */
+.container-top {
+  background-image: linear-gradient(
+  0deg,
+  hsl(240deg 90% 15%) 0%,
+  hsl(276deg 92% 17%) 15%,
+  hsl(296deg 96% 17%) 26%,
+  hsl(311deg 93% 22%) 35%,
+  hsl(323deg 80% 29%) 43%,
+  hsl(333deg 67% 37%) 49%,
+  hsl(343deg 57% 44%) 56%,
+  hsl(353deg 52% 52%) 62%,
+  hsl(3deg 60% 57%) 69%,
+  hsl(13deg 70% 59%) 77%,
+  hsl(21deg 79% 61%) 87%,
+  hsl(28deg 86% 63%) 100%
+);
+flex: auto;
+color: #fff;
+font-family: 'Inter', sans-serif;
+font-weight: bolder;
+height: 275px;
+width: 550px;
+}
+.container-top h1 {
+  /* border: solid; */
+  width: 550px;
+  text-align: center;
+  padding: 50px 0;
+  margin: auto;
+  font-weight: 800;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container-top input #input-number{
+  /* border: solid red 10px; */
+  display: flex;
+  width: 150px;
+  padding: auto;
+  margin: auto;
+  font-weight: 800;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+}
+
+.container-top p {
+    /* border: solid; */
+  /* display: flex; */
+  width: 150px;
+  padding: auto;
+  margin: auto;
+  font-weight: 800;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+}
+
+/* Bottom section: */
+
+.container-bottom {
+  flex: auto;
+  background-color: #1F2937;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  height: 275px;
+  width: 550px;
+  margin: 0;
+  padding-top: 5px;
+  /* border: solid red; */
+  text-align: center;
+}
+
+.container-bottom h2 {
+  margin: 0;
+}
+
+.container-bottom p {
+  font-weight: 400;
+}
+
+#length-container {
+  padding: 10px 0;
+  margin: 0;
+}
+
+#volume-container {
+  padding: 10px 0;
+  margin: 0;
+}
+
+#mass-container {
+  padding: 10px 0;
+  margin: 0;
+}
